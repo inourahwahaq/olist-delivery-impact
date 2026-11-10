@@ -1,0 +1,4 @@
+scenario,late_orders_avoided,new_late_pct,low_reviews_avoided,avg_score_gain,revenue_low,revenue_mid,revenue_high
+Bring Rio to the other states' late rate,758,6.8,394,0.02,0,373,956
+Bring Feb and Mar 2018 to the other months' rate,1468,5.8,764,0.039,0,722,1851
+Both,2017,5.1,1049,0.053,0,992,2543

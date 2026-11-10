@@ -1,0 +1,5 @@
+model,pr_auc,roc_auc,precision_top_10pct,recall_top_10pct
+No model (late rate),0.077,0.5,0.077,0.1
+Rule: recent late rate,0.064,0.441,0.037,0.049
+Logistic regression,0.099,0.602,0.101,0.131
+Gradient boosting,0.135,0.639,0.164,0.211

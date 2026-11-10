@@ -1,0 +1,10 @@
+model,term,effect,ci_low,ci_high,orders
+review_score: simple,is_late,-2.021,-2.068,-1.974,95376
+review_score: with controls,is_late,-1.961,-2.01,-1.912,95376
+low_score: simple,is_late,0.532,0.518,0.545,95376
+low_score: with controls,is_late,0.52,0.507,0.534,95376
+review_score: same seller,is_late,-1.922,-1.972,-1.871,94851
+review_score: reviews after delivery only,is_late,-0.741,-0.815,-0.667,90419
+review_score: late_1_3,"C(delay_level, Treatment('on_time'))[T.late_1_3]",-0.972,-1.045,-0.899,95376
+review_score: late_4_7,"C(delay_level, Treatment('on_time'))[T.late_4_7]",-2.149,-2.226,-2.073,95376
+review_score: late_8_plus,"C(delay_level, Treatment('on_time'))[T.late_8_plus]",-2.523,-2.577,-2.47,95376
